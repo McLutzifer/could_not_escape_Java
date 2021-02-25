@@ -1,6 +1,6 @@
 public class ue2 {
 
-    public static int calculation(double x, double y, String op) {
+    public static double calculation(double x, double y, String op) {
         if (op == "+") {
             double z = x + y;
             return z;
@@ -19,6 +19,6 @@ public class ue2 {
         double second = Double.parseDouble(args[2]); 
         String operation = args[1];
 
-        calculation(first, second, operation)
+        calculation(first, second, operation);
         }
 }
