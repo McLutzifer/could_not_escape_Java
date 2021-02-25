@@ -3,7 +3,7 @@ public class ue1 {
         int first = args[0];
         int second = args[1];
 
-        for (int x = first; x < second, x++) {
+        for (int x = first; x < second; x++) {
             System.out.println(x);
         }
     }
