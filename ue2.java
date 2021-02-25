@@ -9,6 +9,12 @@ public class ue2 {
             case "-":
                 z = x - y;
                 break;
+            case "*":
+                z = x * y;
+                break;
+            case "/":
+                z = x / y;
+                break;
             default:
                 System.out.println("Bitte gültige Operation eingeben");
                 z = 404;
@@ -23,6 +29,6 @@ public class ue2 {
         double second = Double.parseDouble(args[2]); 
         String operation = args[1];
 
-        calculation(first, second, operation);
+        System.out.println(calculation(first, second, operation));
         }
 }
