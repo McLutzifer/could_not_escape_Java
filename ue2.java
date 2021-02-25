@@ -1,12 +1,6 @@
 public class ue2 {
 
     public static double calculation(double x, double y, String op) {
-        if (op == "+") {
-            double z = x + y;
-            return z;
-        }
-
-
         switch (op) { 
             case "+": return x + y
         }
