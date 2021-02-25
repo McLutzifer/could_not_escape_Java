@@ -5,7 +5,7 @@ public class ue1 {
         int second = Integer.parseInt(args[1]);
 
         for (int x = first; x < second; x++) {
-            for (int y = 2; y < x; y++) {
+            for (int y = x; y == 2; y--) {
                 if (x % y == 0) {
                     break;
                 }
