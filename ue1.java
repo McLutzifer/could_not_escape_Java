@@ -5,7 +5,12 @@ public class ue1 {
         int second = Integer.parseInt(args[1]);
 
         for (int x = first; x < second; x++) {
-            System.out.println(x);
+            for (int y = 2; y < x; y++) {
+                if (x % y == 0) {
+                    break;
+                }
+                System.out.println(x);
+            }
         }
     }
 }
