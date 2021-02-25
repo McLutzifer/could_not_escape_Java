@@ -1,9 +1,19 @@
 public class ue2 {
 
     public static double calculation(double x, double y, String op) {
+        double z;
         switch (op) { 
-            case "+": return x + y
+            case "+": 
+                z =  x + y;
+                break;
+            case "-":
+                z = x - y;
+                break;
+            default:
+                System.out.println("Bitte gültige Operation eingeben");
+                z = 404;
         }
+        return z;
         
     }
 
