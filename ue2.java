@@ -1,10 +1,13 @@
 public class ue2 {
 
-    public static double calculation(double x, double y, String op) {
+    public static int calculation(double x, double y, String op) {
         if (op == "+") {
-            
-            return x + y;
+            double z = x + y;
+            return z;
         }
+
+
+        // switch 
     }
 
     public static void main (String args[]) {
