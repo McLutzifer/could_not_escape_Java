@@ -7,7 +7,10 @@ public class ue2 {
         }
 
 
-        // switch 
+        /*switch (op) { 
+            case 1: op == asdasdasd
+        }
+        */
     }
 
     public static void main (String args[]) {
