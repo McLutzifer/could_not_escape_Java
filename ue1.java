@@ -6,8 +6,8 @@ public class ue1 {
             if (num % i == 0) {
                 return;
             }
-            System.out.println(num);
         }
+        System.out.println(num);
     }
 
     public static void main (String args[]) {
@@ -16,6 +16,7 @@ public class ue1 {
 
         for (int x = first; x < second; x++) {
             isPrime(x);
+
             }
         }
 }
