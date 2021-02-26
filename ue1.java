@@ -19,7 +19,6 @@ public class ue1 {
         System.out.println("The prime numbers between " + first + " and " + second + " are:");
         for (int x = first; x < second; x++) {
             isPrime(x);
-
-            }
         }
+    }
 }
