@@ -14,7 +14,7 @@ public class ue3 {
         System.out.print("Please insert second integer number >>  ");
         int z2 = sc.nextInt();
 
-        System.out.print("Sum is:  ");
+        System.out.print("Sum: " + z1 + " + " + z2 + " = " );
         System.out.println(z1 + z2);
         }
 }
