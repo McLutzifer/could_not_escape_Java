@@ -8,7 +8,7 @@ public class ue1 {
             }
         }
         if (num > 1) {
-        System.out.print(num);
+        System.out.print(num + " ");
         }
     }
 
