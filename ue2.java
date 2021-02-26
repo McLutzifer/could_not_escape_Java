@@ -20,7 +20,6 @@ public class ue2 {
                 z = 404;
         }
         return z;
-        
     }
 
     public static void main (String args[]) {
