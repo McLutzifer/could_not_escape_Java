@@ -9,7 +9,7 @@ public class ue2 {
             case "-":
                 z = x - y;
                 break;
-            case "*":
+            case "x":
                 z = x * y;
                 break;
             case "/":
