@@ -1,4 +1,4 @@
-public class ue1 {
+public class 1_Exercise_Task_1 {
 
 
     static void isPrime(int num) {
