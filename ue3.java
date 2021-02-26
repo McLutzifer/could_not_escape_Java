@@ -8,9 +8,9 @@ public class ue3 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Bitte nummer eingeben:");
+        System.out.println("Please insert first integer number:");
         int z1 = sc.nextInt();
-        System.out.println("Bitte nummer eingeben:");
+        System.out.print("Please insert first integer number:");
         int z2 = sc.nextInt();
 
         System.out.println("Summe ist:");
