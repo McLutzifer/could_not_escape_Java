@@ -27,6 +27,7 @@ public class First_Exercise_Task_2 {
         int len = args.length;
         if (len != 3) {
             System.out.println("Please insert two integers and an operation");
+            return;
         }
 
         double first = Double.parseDouble(args[0]);
