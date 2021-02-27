@@ -16,7 +16,7 @@ public class First_Exercise_Task_2 {
                 z = x / y;
                 break;
             default:
-                System.out.println("Bitte gültige Operation eingeben");
+                System.out.println("Please insert valid operation (+, -, x, /)");
                 z = 404;
         }
         return z;
