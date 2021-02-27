@@ -1,4 +1,4 @@
-public class ue2 {
+public class First_Exercise_Task_2 {
 
     public static double calculation(double x, double y, String op) {
         double z;
