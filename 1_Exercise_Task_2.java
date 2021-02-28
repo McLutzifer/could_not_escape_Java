@@ -9,7 +9,7 @@ public class ue2 {
             case "-":
                 z = x - y;
                 break;
-            case "*":
+            case "x":
                 z = x * y;
                 break;
             case "/":
@@ -20,7 +20,6 @@ public class ue2 {
                 z = 404;
         }
         return z;
-        
     }
 
     public static void main (String args[]) {

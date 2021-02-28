@@ -1,4 +1,4 @@
-public class ue1 {
+public class 1_Exercise_Task_1 {
 
 
     static void isPrime(int num) {
@@ -7,16 +7,18 @@ public class ue1 {
                 return;
             }
         }
-        System.out.println(num);
+        if (num > 1) {
+        System.out.print(num + " ");
+        }
     }
 
     public static void main (String args[]) {
         int first = Integer.parseInt(args[0]);
         int second = Integer.parseInt(args[1]);
 
+        System.out.println("The prime numbers between " + first + " and " + second + " are:");
         for (int x = first; x < second; x++) {
             isPrime(x);
-
-            }
         }
+    }
 }
