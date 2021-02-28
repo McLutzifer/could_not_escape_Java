@@ -1,3 +1,8 @@
+/*
+Lukas Schumi  //  se201028
+Exercise 1  //  Task 1
+*/
+
 public class First_Exercise_Task_1 {
 
 
