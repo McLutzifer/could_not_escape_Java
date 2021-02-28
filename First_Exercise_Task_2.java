@@ -1,3 +1,9 @@
+/*
+Lukas Schumi  //  se201028
+Exercise 1  //  Task 2
+*/
+
+
 public class First_Exercise_Task_2 {
 
     public static double calculation(double x, double y, String op) {
