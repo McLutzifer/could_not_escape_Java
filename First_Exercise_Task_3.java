@@ -16,5 +16,7 @@ public class First_Exercise_Task_3 {
 
         System.out.print("Sum: " + z1 + " + " + z2 + " = " );
         System.out.println(z1 + z2);
+
+        sc.close();
         }
 }
