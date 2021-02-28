@@ -1,4 +1,4 @@
-package com.codewithmosh;
+package Mosh.src.com.codewithmosh;
 
 public class Main {
 
