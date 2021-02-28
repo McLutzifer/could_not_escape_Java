@@ -1,4 +1,4 @@
-public class 1_Exercise_Task_1 {
+public class First_Exercise_Task_1 {
 
 
     static void isPrime(int num) {

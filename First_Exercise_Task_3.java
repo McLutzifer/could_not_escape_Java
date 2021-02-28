@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ue3 {
+public class First_Exercise_Task_3 {
 
 
     public static void main (String args[]) {
