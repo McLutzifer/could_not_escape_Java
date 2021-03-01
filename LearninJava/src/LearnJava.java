@@ -6,6 +6,8 @@ public class LearnJava {
         long c = 400;
         double d = 3.2;
 
+        String name = "Susan";
 
+        System.out.println(name.toUpperCase());
     }
 }
