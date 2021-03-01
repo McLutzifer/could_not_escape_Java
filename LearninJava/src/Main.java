@@ -13,7 +13,7 @@ public class Main {
         System.out.println(studentLastName.charAt(0));
         System.out.println(hasPerfectAttendance);
 
-        System.out.println(studentFirstName + " " + studentLastName);
+        System.out.println(studentFirstName + " " + studentLastName + " has a GPA of " + studentGPA);
 
     }
 }
