@@ -1,0 +1,2 @@
+public class LearnJava {
+}
