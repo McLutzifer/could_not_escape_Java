@@ -13,15 +13,21 @@ public class LearnJava {
          */
 
         //addExclamationPoint("hot dogs");
-        String exclaim = addExclamationPoint("hot dogs");
-        System.out.println(exclaim);
+        //String exclaim = addExclamationPoint("hot dogs");
+        //System.out.println(exclaim);
 
+        Animal a = new Animal();
+        String dog = a.iAmDog();
+        System.out.println(dog);
 
     }  // end main
 
+    /*
     public static String addExclamationPoint(String s) {
         //System.out.println(s + "!");
         return s + "!";
     }
+
+     */
 
 } // end class LearnJava
