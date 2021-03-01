@@ -12,11 +12,16 @@ public class LearnJava {
         System.out.println(name.toUpperCase());
          */
 
+        //addExclamationPoint("hot dogs");
+        String exclaim = addExclamationPoint("hot dogs");
+        System.out.println(exclaim);
+
 
     }  // end main
 
-    public static void addExclamationPoint(String s) {
-        System.out.println(s + "!");
+    public static String addExclamationPoint(String s) {
+        //System.out.println(s + "!");
+        return s + "!";
     }
 
 } // end class LearnJava
