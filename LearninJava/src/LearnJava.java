@@ -23,6 +23,9 @@ public class LearnJava {
         ArrayList<Integer> num = new ArrayList<Integer>();
         num.add(3);
 
+        Animal stuff = new Animal();
+        stuff.doStuff();
+
 
     }  // end main
 
