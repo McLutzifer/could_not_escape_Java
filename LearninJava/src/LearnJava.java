@@ -41,8 +41,8 @@ public class LearnJava {
         //     STRINGS
 
         // oroginally : String message = new String("Hello World");
-        String message = "Hello World";
-        System.out.println(message);
+        String message = "Hello World" + "!!";
+        System.out.println(message.endsWith("!!"));
 
 
     }  // end main
