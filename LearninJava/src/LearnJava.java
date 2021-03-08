@@ -62,6 +62,9 @@ public class LearnJava {
 
         System.out.println(Arrays.toString(numbers));
 
+        int[] numbers2 = {2, 3, 5, 1, 4};
+        System.out.println(numbers2.length);
+
     }  // end main
 
     /*
