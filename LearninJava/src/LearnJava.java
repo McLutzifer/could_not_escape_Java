@@ -43,6 +43,7 @@ public class LearnJava {
         // oroginally : String message = new String("Hello World");
         String message = "Hello World" + "!!";
         System.out.println(message.endsWith("!!"));
+        System.out.println(message.length());
 
 
     }  // end main
