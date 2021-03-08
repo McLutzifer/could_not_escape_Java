@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.ArrayList;
 
 public class LearnJava {
@@ -30,6 +31,10 @@ public class LearnJava {
         byte y = x;
         x = 2;
         System.out.println("y is " + y);
+
+        //reference
+        Point point1 = new Point(1, 1);
+        Point point2 = point1;
 
 
 
