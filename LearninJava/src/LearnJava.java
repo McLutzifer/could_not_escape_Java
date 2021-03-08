@@ -45,6 +45,7 @@ public class LearnJava {
         System.out.println(message.endsWith("!!"));
         System.out.println(message.length());
         System.out.println(message.indexOf("e"));
+        System.out.println(message.replace("!", "*"));
 
 
     }  // end main
