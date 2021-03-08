@@ -37,7 +37,7 @@ public class LearnJava {
         Point point2 = point1;
         point1.x = 2;
         System.out.println(point2);
-
+/*
         //     STRINGS
 
         // oroginally : String message = new String("Hello World");
@@ -53,6 +53,9 @@ public class LearnJava {
         System.out.println(mosh);
         String windows = "c:\\Windows\\...";
         System.out.println(windows);
+  */
+        // ARRAYS
+        int[] numbers = new int[5];
 
     }  // end main
 
