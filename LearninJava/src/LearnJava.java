@@ -38,6 +38,11 @@ public class LearnJava {
         point1.x = 2;
         System.out.println(point2);
 
+        //     STRINGS
+
+        // oroginally : String message = new String("Hello World");
+        String message = "Hello World";
+        System.out.println(message);
 
 
     }  // end main
