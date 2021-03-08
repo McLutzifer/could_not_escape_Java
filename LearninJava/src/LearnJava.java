@@ -44,6 +44,7 @@ public class LearnJava {
         String message = "Hello World" + "!!";
         System.out.println(message.endsWith("!!"));
         System.out.println(message.length());
+        System.out.println(message.indexOf("e"));
 
 
     }  // end main
