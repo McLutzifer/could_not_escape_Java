@@ -1,5 +1,6 @@
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class LearnJava {
 
@@ -56,6 +57,10 @@ public class LearnJava {
   */
         // ARRAYS
         int[] numbers = new int[5];
+        numbers[0] = 1;
+        numbers[1] = 2;
+
+        System.out.println(Arrays.toString(numbers));
 
     }  // end main
 
