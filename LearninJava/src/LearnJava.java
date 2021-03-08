@@ -49,7 +49,10 @@ public class LearnJava {
         // does not modify original String
         System.out.println(message);
         System.out.println(message.trim());
-
+        String mosh = "Hello \"Mosh\"";
+        System.out.println(mosh);
+        String windows = "c:\\Windows\\...";
+        System.out.println(windows);
 
     }  // end main
 
