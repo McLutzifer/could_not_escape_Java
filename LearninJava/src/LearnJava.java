@@ -26,6 +26,12 @@ public class LearnJava {
         Animal stuff = new Animal();
         stuff.doStuff();
 
+        byte x = 1;
+        byte y = x;
+        x = 2;
+        System.out.println(y);
+
+
 
     }  // end main
 
