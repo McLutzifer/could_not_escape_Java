@@ -41,13 +41,14 @@ public class LearnJava {
         //     STRINGS
 
         // oroginally : String message = new String("Hello World");
-        String message = "Hello World" + "!!";
+        String message = "  Hello World" + "!!  ";
         System.out.println(message.endsWith("!!"));
         System.out.println(message.length());
         System.out.println(message.indexOf("e"));
         System.out.println(message.replace("!", "*"));
         // does not modify original String
         System.out.println(message);
+        System.out.println(message.trim());
 
 
     }  // end main
