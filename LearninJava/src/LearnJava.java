@@ -81,7 +81,7 @@ public class LearnJava {
         final float PI = 3.14F;
 
         // ARITHMETIC
-
+        System.out.println((double)10/3);
 
     }  // end main
 
