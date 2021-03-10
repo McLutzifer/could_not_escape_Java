@@ -56,6 +56,7 @@ public class LearnJava {
         System.out.println(windows);
   */
         // ARRAYS
+        /*
         int[] numbers = new int[5];
         numbers[0] = 1;
         numbers[1] = 2;
@@ -74,6 +75,10 @@ public class LearnJava {
         int[][] matrix2 = { {1, 2, 3}, {4, 5, 6}};
         System.out.println(Arrays.deepToString(matrix2));
 
+        */
+
+        // CONSTANT
+        final float PI = 3.14F;
 
     }  // end main
 
