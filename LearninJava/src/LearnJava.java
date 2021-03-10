@@ -66,6 +66,11 @@ public class LearnJava {
         Arrays.sort(numbers2);
         System.out.println(Arrays.toString(numbers2));
 
+
+        int[][] matrix = new int[2][3];
+        matrix[0][0] = 1;
+        System.out.println(Arrays.deepToString(matrix));
+
     }  // end main
 
     /*
