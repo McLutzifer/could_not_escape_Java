@@ -80,6 +80,9 @@ public class LearnJava {
         // CONSTANT
         final float PI = 3.14F;
 
+        // ARITHMETIC
+
+
     }  // end main
 
     /*
