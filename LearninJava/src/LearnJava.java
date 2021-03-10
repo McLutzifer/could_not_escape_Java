@@ -71,6 +71,10 @@ public class LearnJava {
         matrix[0][0] = 1;
         System.out.println(Arrays.deepToString(matrix));
 
+        int[][] matrix2 = { {1, 2, 3}, {4, 5, 6}};
+        System.out.println(Arrays.deepToString(matrix2));
+
+
     }  // end main
 
     /*
