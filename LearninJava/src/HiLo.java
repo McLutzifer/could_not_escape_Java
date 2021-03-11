@@ -8,7 +8,6 @@ public class HiLo {
         System.out.println( theNumber );
         int guess = 0;
         System.out.println("Guess a umber between 1 and 100");
-
-
+        guess = scan.nextInt();
     }
 }
