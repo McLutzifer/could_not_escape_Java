@@ -5,14 +5,14 @@ import java.util.Arrays;
 public class LearnJava {
 
     public static void main(String[] args) {
-        /*
-        int a = 5;
+
+        int five = 5;
         char b = 'b';
         long c = 400;
         double d = 3.2;
         String name = "Susan";
         System.out.println(name.toUpperCase());
-         */
+
 
         //addExclamationPoint("hot dogs");
         //String exclaim = addExclamationPoint("hot dogs");
