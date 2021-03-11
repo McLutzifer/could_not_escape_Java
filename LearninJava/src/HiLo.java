@@ -13,7 +13,10 @@ public class HiLo {
             //System.out.println("you entered " + guess + ".");
             if (guess < theNumber)
                 System.out.println(guess + " is too low. Try again.");
-            else if
+            else if (guess > theNumber)
+                System.out.println(guess + " is too high. Try again.");
+            else
+                System.out.println(guess + " id correct. You win!");
         }
     } // end main
 } // end class HiLo
