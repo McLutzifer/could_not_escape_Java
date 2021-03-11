@@ -9,5 +9,7 @@ public class HiLo {
         int guess = 0;
         System.out.println("Guess a umber between 1 and 100");
         guess = scan.nextInt();
-    }
-}
+        System.out.println("you entered " + guess + ".");
+
+    } // end main
+} // end class HiLo
