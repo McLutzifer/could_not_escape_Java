@@ -7,9 +7,10 @@ public class HiLo {
         int theNumber = (int)(Math.random() * 100 + 1);
         System.out.println( theNumber );
         int guess = 0;
-        System.out.println("Guess a umber between 1 and 100");
-        guess = scan.nextInt();
-        System.out.println("you entered " + guess + ".");
-
+        while (guess != theNumber) {
+            System.out.println("Guess a umber between 1 and 100");
+            guess = scan.nextInt();
+            System.out.println("you entered " + guess + ".");
+        }
     } // end main
 } // end class HiLo
