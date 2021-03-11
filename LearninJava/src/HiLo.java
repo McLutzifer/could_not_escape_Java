@@ -17,6 +17,6 @@ public class HiLo {
                 System.out.println(guess + " is too high. Try again.");
             else
                 System.out.println(guess + " id correct. You win!");
-        }
+        } // end of while loop for guessing
     } // end main
 } // end class HiLo
