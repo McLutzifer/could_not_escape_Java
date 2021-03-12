@@ -28,6 +28,9 @@ public class LearnJava {
         Animal stuff = new Animal();
         stuff.doStuff();
 
+        Dog Bobby = new Dog();
+        Bobby.eat();
+
         byte x = 1;
         byte y = x;
         x = 2;
