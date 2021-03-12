@@ -10,7 +10,7 @@ class Circle extends Shape {
         this.width = w;
     }
     public void area() {
-        double a = (this.width * this.width * 3.141);
+        double a = (this.width * this.width * Math.PI);
         System.out.println(a);
     }
 }
@@ -20,7 +20,7 @@ class Square extends Shape {
         this.width = w;
     }
     public void area() {
-        double a = (this.width * this.width);
+        int a = (this.width * this.width);
         System.out.println(a);
     }
 }
