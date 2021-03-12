@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        /*
         int studentAge = 15;
         double studentGPA = 3.45;
         String studentFirstName = "Kayla";
@@ -23,5 +24,9 @@ public class Main {
 
         System.out.println(studentFirstName + " " + studentLastName + " now has a GPA of " + studentGPA);
 
+        */
+
+        Triangle triangleA = new Triangle(15, 8, 15, 8, 17);
+        Triangle triangleB = new Triangle(3, 2.598, 3, 3, 3);
     }
 }
