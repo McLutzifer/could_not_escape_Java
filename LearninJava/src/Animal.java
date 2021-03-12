@@ -1,5 +1,10 @@
 public class Animal {
 
+    protected int legs;
+    public void eat() {
+        System.out.println("Animals eat");
+    }
+
     public static String iAmDog() {
         return "I am a dog";
     }
@@ -15,3 +20,8 @@ public class Animal {
 
 }  // end class Animal
 
+class Dog extends Animal {
+    Dog() {
+        legs = 4;
+    }
+}
