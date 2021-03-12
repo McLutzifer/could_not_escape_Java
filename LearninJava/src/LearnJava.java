@@ -22,6 +22,13 @@ public class LearnJava {
         String dog = a.iAmDog();
         System.out.println(dog);
 
+        Animal Bubi = new Dog();
+        Animal Olaf = new Cat();
+
+        Bubi.makeSound();
+        Olaf.makeSound();
+
+
         ArrayList<Integer> num = new ArrayList<Integer>();
         num.add(3);
 
