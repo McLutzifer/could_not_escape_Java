@@ -15,6 +15,16 @@ class Circle extends Shape {
     }
 }
 
+class Square extends Shape {
+    Square (int w) {
+        this.width = w;
+    }
+    public void area() {
+        double a = (this.width * this.width);
+        System.out.println(a);
+    }
+}
+
 public class Programm {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
