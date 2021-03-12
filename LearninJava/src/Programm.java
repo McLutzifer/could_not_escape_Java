@@ -31,9 +31,9 @@ public class Programm {
         int x = sc.nextInt();
         int y = sc.nextInt();
 
-        //Square a = new Square(x);
+        Square a = new Square(x);
         Circle b = new Circle(y);
-        //a.area();
+        a.area();
         b.area();
     }
 }
