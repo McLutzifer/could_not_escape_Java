@@ -9,7 +9,9 @@ public class Triangle {
         this.sideLenOne = sideLenOne;
         this.sideLenTwo = sideLenTwo;
         this.sideLenThree = sideLenThree;
-
-
     } // end constructor Triangle
+
+    public double findArea() {
+        return (this.base *this.height) / 2;
+    } // end findArea
 } // end class triangle
