@@ -5,25 +5,24 @@ abstract class Shape {
     abstract void area();
 }
 
-class Circle extends Shape {
-    Circle (int w) {
-        this.width = w;
-    }
-    public void area() {
-        double a = (this.width * this.width * Math.PI);
-        System.out.println(a);
-    }
-}
-
 class Square extends Shape {
     Square (int w) {
         this.width = w;
     }
     public void area() {
-        int a = (this.width * this.width);
-        System.out.println(a);
+        System.out.println(this.width * this.width);
     }
 }
+
+class Circle extends Shape {
+    Circle (int w) {
+        this.width = w;
+    }
+    public void area() {
+        System.out.println(Math.PI * this.width * this.width );
+    }
+}
+
 
 public class Programm {
     public static void main(String[] args) {
