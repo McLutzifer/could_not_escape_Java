@@ -19,3 +19,8 @@ public class Classes {
 } // end cass Classes
 
 
+/*
+* Output:
+* New A
+* New B*
+* */
