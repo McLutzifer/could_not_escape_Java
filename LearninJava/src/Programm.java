@@ -6,8 +6,12 @@ abstract class Shape {
 }
 
 class Circle extends Shape {
-    void area(int w) {
-        System.out.println(w*w*3.141);
+    Circle (int w) {
+        this.width = w;
+    }
+    public void area() {
+        double a = (this.width * this.width * 3.141);
+        System.out.println(a);
     }
 }
 
@@ -17,9 +21,9 @@ public class Programm {
         int x = sc.nextInt();
         int y = sc.nextInt();
 
-        Square a = new Square(x);
+        //Square a = new Square(x);
         Circle b = new Circle(y);
-        a.area();
+        //a.area();
         b.area();
     }
 }
