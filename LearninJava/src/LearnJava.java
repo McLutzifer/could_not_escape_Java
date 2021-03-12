@@ -24,10 +24,11 @@ public class LearnJava {
 
         Animal Bubi = new Dog();
         Animal Olaf = new Cat();
+        Animal Iguana = new Animal();
 
         Bubi.makeSound();
         Olaf.makeSound();
-
+        Iguana.makeSound();
 
         ArrayList<Integer> num = new ArrayList<Integer>();
         num.add(3);
