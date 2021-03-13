@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee59d23d-8363-4d41-9d22-55e9bca7013c" name="Default Changelist" comment="update HiLo&#10;add comments">
+      <change beforePath="$PROJECT_DIR$/out/production/LearninJava/HiLo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearninJava/HiLo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog611.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog613.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1p9N3NCujLHoy2Wz7RC3pHEwdS2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RunManager" selected="Application.HiLo">
+    <configuration name="HiLo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HiLo" />
+      <module name="LearninJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LearnJava" />
+      <module name="LearninJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prog611" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prog611" />
+      <module name="LearninJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prog613" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prog613" />
+      <module name="LearninJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programm" />
+      <module name="LearninJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HiLo" />
+        <item itemvalue="Application.Prog613" />
+        <item itemvalue="Application.Prog611" />
+        <item itemvalue="Application.Programm" />
+        <item itemvalue="Application.LearnJava" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee59d23d-8363-4d41-9d22-55e9bca7013c" name="Default Changelist" comment="" />
+      <created>1614591148289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614591148289</updated>
+      <workItem from="1614591149748" duration="2722000" />
+      <workItem from="1614625312663" duration="6611000" />
+      <workItem from="1615232209552" duration="3971000" />
+      <workItem from="1615491640575" duration="872000" />
+      <workItem from="1615488927043" duration="2669000" />
+      <workItem from="1615546027388" duration="9883000" />
+    </task>
+    <task id="LOCAL-00034" summary="update">
+      <created>1615382482850</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1615382482850</updated>
+    </task>
+    <task id="LOCAL-00035" summary="deepToString">
+      <created>1615382606849</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1615382606849</updated>
+    </task>
+    <task id="LOCAL-00036" summary="deepToString">
+      <created>1615382664644</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1615382664644</updated>
+    </task>
+    <task id="LOCAL-00037" summary="const">
+      <created>1615382730115</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1615382730115</updated>
+    </task>
+    <task id="LOCAL-00038" summary="arithmetic">
+      <created>1615382778596</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1615382778596</updated>
+    </task>
+    <task id="LOCAL-00039" summary="arithmetic">
+      <created>1615382886672</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1615382886672</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update">
+      <created>1615489338556</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1615489338556</updated>
+    </task>
+    <task id="LOCAL-00041" summary="create HiLo">
+      <created>1615493469480</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1615493469480</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update HiLo">
+      <created>1615493519699</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1615493519699</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update HiLo&#10;add math">
+      <created>1615493599541</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1615493599541</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update HiLo&#10;add Scanner">
+      <created>1615493653293</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1615493653293</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update HiLo&#10;add guess">
+      <created>1615493738185</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1615493738185</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update HiLo&#10;add guess scan">
+      <created>1615493873241</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1615493873241</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update HiLo&#10;add guess">
+      <created>1615493946267</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1615493946267</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update HiLo&#10;add while">
+      <created>1615494356342</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1615494356342</updated>
+    </task>
+    <task id="LOCAL-00049" summary="update HiLo&#10;add if">
+      <created>1615494495424</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1615494495424</updated>
+    </task>
+    <task id="LOCAL-00050" summary="update HiLo&#10;add else">
+      <created>1615494577771</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1615494577771</updated>
+    </task>
+    <task id="LOCAL-00051" summary="update HiLo&#10;add comments">
+      <created>1615494626416</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1615494626416</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update HiLo&#10;add comments">
+      <created>1615494686881</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1615494686881</updated>
+    </task>
+    <task id="LOCAL-00053" summary="create classes">
+      <created>1615546124271</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1615546124272</updated>
+    </task>
+    <task id="LOCAL-00054" summary="add comments">
+      <created>1615546177478</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1615546177478</updated>
+    </task>
+    <task id="LOCAL-00055" summary="create Triangle class">
+      <created>1615546814699</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1615546814699</updated>
+    </task>
+    <task id="LOCAL-00056" summary="add method">
+      <created>1615546946490</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1615546946490</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add triangle class">
+      <created>1615547122514</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1615547122514</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add triangle method">
+      <created>1615547511733</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1615547511733</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add triangle method">
+      <created>1615547563801</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1615547563801</updated>
+    </task>
+    <task id="LOCAL-00060" summary="update">
+      <created>1615559514916</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1615559514916</updated>
+    </task>
+    <task id="LOCAL-00061" summary="update BankAccount">
+      <created>1615559651785</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1615559651785</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Add subclass Dog">
+      <created>1615559796319</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1615559796319</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Add  Dog">
+      <created>1615559887116</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1615559887116</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Add  Dog">
+      <created>1615559980171</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1615559980171</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Add classes">
+      <created>1615560294587</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1615560294588</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Add comments">
+      <created>1615560523228</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1615560523228</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Add polimorphism">
+      <created>1615560871528</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1615560871528</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Add makeSound">
+      <created>1615560974332</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1615560974332</updated>
+    </task>
+    <task id="LOCAL-00069" summary="update">
+      <created>1615561057719</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1615561057719</updated>
+    </task>
+    <task id="LOCAL-00070" summary="update">
+      <created>1615562555211</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1615562555211</updated>
+    </task>
+    <task id="LOCAL-00071" summary="update">
+      <created>1615571677137</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1615571677137</updated>
+    </task>
+    <task id="LOCAL-00072" summary="update">
+      <created>1615571765552</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1615571765552</updated>
+    </task>
+    <task id="LOCAL-00073" summary="update">
+      <created>1615571800343</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1615571800343</updated>
+    </task>
+    <task id="LOCAL-00074" summary="update">
+      <created>1615571975041</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1615571975041</updated>
+    </task>
+    <task id="LOCAL-00075" summary="update">
+      <created>1615572788153</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1615572788153</updated>
+    </task>
+    <task id="LOCAL-00076" summary="create Prog611">
+      <created>1615573046536</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1615573046536</updated>
+    </task>
+    <task id="LOCAL-00077" summary="update Prog611">
+      <created>1615573173143</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1615573173143</updated>
+    </task>
+    <task id="LOCAL-00078" summary="update Prog611">
+      <created>1615573203281</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1615573203281</updated>
+    </task>
+    <task id="LOCAL-00079" summary="update Prog613">
+      <created>1615573435465</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1615573435465</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Add do while loop">
+      <created>1615574157904</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1615574157904</updated>
+    </task>
+    <task id="LOCAL-00081" summary="add do while">
+      <created>1615574284842</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1615574284842</updated>
+    </task>
+    <task id="LOCAL-00082" summary="close scan">
+      <created>1615574405014</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1615574405014</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update HiLo&#10;add guess" />
+    <MESSAGE value="update HiLo&#10;add while" />
+    <MESSAGE value="update HiLo&#10;add if" />
+    <MESSAGE value="update HiLo&#10;add else" />
+    <MESSAGE value="update HiLo&#10;add comments" />
+    <MESSAGE value="create classes" />
+    <MESSAGE value="add comments" />
+    <MESSAGE value="create Triangle class" />
+    <MESSAGE value="add method" />
+    <MESSAGE value="add triangle class" />
+    <MESSAGE value="add triangle method" />
+    <MESSAGE value="update BankAccount" />
+    <MESSAGE value="Add subclass Dog" />
+    <MESSAGE value="Add  Dog" />
+    <MESSAGE value="Add classes" />
+    <MESSAGE value="Add comments" />
+    <MESSAGE value="Add polimorphism" />
+    <MESSAGE value="Add makeSound" />
+    <MESSAGE value="update" />
+    <MESSAGE value="create Prog611" />
+    <MESSAGE value="update Prog611" />
+    <MESSAGE value="update Prog613" />
+    <MESSAGE value="Add do while loop" />
+    <MESSAGE value="add do while" />
+    <MESSAGE value="close scan" />
+    <option name="LAST_COMMIT_MESSAGE" value="close scan" />
+  </component>
+</project>
