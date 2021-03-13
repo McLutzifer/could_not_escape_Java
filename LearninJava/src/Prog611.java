@@ -1,3 +1,5 @@
+package LearninJava.src;
+
 import javax.swing.*;
 
 public class Prog611 {

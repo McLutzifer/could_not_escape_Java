@@ -1,3 +1,5 @@
+package LearninJava.src;
+
 import java.util.Scanner;
 
 public class Main {

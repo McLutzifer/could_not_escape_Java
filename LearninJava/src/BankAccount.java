@@ -1,3 +1,5 @@
+package LearninJava.src;
+
 public class BankAccount {
     private double balance = 0;
     public void deposit(double x) {

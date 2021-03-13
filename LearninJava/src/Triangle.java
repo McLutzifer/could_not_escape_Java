@@ -1,3 +1,5 @@
+package LearninJava.src;
+
 public class Triangle {
 
     double base, height, sideLenOne, sideLenTwo, sideLenThree;
