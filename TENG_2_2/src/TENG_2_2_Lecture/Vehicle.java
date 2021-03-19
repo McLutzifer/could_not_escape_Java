@@ -46,4 +46,9 @@ public class Vehicle {
         return this.brand;
     }
 
+    @Override
+    public String toString() {
+        return null;
+    }
+
 }
