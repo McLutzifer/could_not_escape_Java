@@ -20,6 +20,8 @@ public class Dice {
         // write some code
         /*MY*/ this.numberOfEyes = 6;
         /*MY*/ increaseNumberOfDices();
+        /*MY*/         System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices
+                + " created with " + numberOfEyes + " eyes.");
     }
     
     /**
@@ -29,10 +31,11 @@ public class Dice {
     public Dice( int numOfEyes ) {
         // write some code
         /*MY*/ this.numberOfEyes = numOfEyes;
-        /*MY increaseNumberOfDices(); */
+        /*MY*/ increaseNumberOfDices();
         this.rand = new Random();
         System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices 
                 + " created with " + numberOfEyes + " eyes.");
+        /*MY increaseNumberOfDices(); */
     }
     
     @Override // DO NOT TOUCH THIS :-)
@@ -65,7 +68,8 @@ public class Dice {
      */
     public static int getNumberOfDices() {
         System.out.println("DICE --> Returning number of dices.");
-        return 0; // write some code --> you need to find the correct return value
+        //return 0; // write some code --> you need to find the correct return value
+        /*MY*/ return numberOfDices;
     }
     
     public int getNumberOfEyes() {
