@@ -45,7 +45,8 @@ public class Dice {
      */
     private static void increaseNumberOfDices() {
         System.out.println("DICE --> Increasing number of dices.");
-        // write some code  
+        // write some code
+        /*MY*/ numberOfDices++;
     }
     
     /**
