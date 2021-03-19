@@ -3,9 +3,9 @@ package TENG_2_2_Lecture;
 import java.awt.*;
 
 public class Vehicle {
-    // class variables
+    // class variables (for the class, thus equal for all instances)
     private static int numberOfInstances;
-
+    //instance variables (separated for each instance)
     private float speed;
     private Color color;
     private String brand;
