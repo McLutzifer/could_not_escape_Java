@@ -42,4 +42,8 @@ public class Vehicle {
         return this.color;
     }
 
+    public String getBrand() {
+        return this.brand;
+    }
+
 }
