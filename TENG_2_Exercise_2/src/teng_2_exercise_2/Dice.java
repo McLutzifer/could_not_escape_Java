@@ -14,11 +14,12 @@ import java.util.Random;
 public class Dice {
     private static int numberOfDices = 0;
     private int numberOfEyes = 0;
-    Random rand; 
+    Random rand;
     
     public Dice() {
         // write some code
         /*MY*/ this.numberOfEyes = 6;
+        /*MY*/ increaseNumberOfDices();
     }
     
     /**
