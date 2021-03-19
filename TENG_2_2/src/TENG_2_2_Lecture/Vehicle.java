@@ -3,6 +3,9 @@ package TENG_2_2_Lecture;
 import java.awt.*;
 
 public class Vehicle {
+    // class variables
+    private static int numberOfInstances;
+
     private float speed;
     private Color color;
     private String brand;
@@ -25,9 +28,16 @@ public class Vehicle {
         this.speed = speed;
         this.color = color;
         this.brand = brand;
+        numberOfInstances ++;
+        this.instanceID = numberOfInstances;
     }
 
     // Get and Set methods
+
+    public static int getNumberOfInstances() {
+        return numberOfInstances;
+    }
+
 
     public void setSpeed(float speed) {
         this.speed = speed;

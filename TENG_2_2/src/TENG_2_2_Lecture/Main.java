@@ -14,6 +14,6 @@ public class Main {
         System.out.println("Speed of vehicle: " + v1.getSpeed());
 
         Vehicle v2 = new Vehicle(10f, new Color(25,53,34), "Hugo");
-
+        System.out.println(v2);
     }
 }
