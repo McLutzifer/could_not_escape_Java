@@ -6,5 +6,6 @@ public class Main {
 	// write your code here
         System.out.println("My first class test!");
 
+        Vehicle v1 = new Vehicle();
     }
 }

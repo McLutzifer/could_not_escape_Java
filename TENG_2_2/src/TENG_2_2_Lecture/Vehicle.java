@@ -26,6 +26,10 @@ public class Vehicle {
         this.color = color;
     }
 
+    public void setColor(int r, int g, int b) {
+        this.color = new Color(r, g, b);
+    }
+
     public void setBrand(String brand) {
         this.brand = brand;
     }
