@@ -33,4 +33,13 @@ public class Vehicle {
     public void setBrand(String brand) {
         this.brand = brand;
     }
+
+    public float getSpeed() {
+        return this.speed;
+    }
+
+    public Color getColor() {
+        return this.color;
+    }
+
 }
