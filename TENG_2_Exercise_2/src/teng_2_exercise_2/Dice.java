@@ -32,6 +32,7 @@ public class Dice {
     public Dice( int numOfEyes ) {
         // write some code
         /*MY*/ this.numberOfEyes = numOfEyes;
+        /*MY*/ // this.numberOfEyes = getNumberOfEyes();
         /*MY*/ increaseNumberOfDices();
         this.rand = new Random();
         System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices 
@@ -92,6 +93,7 @@ public class Dice {
     }
     
     public static int throwDices(Dice... dices){
+
         // write some code
         return 0; // write some code --> you need to find the correct return value
     }
