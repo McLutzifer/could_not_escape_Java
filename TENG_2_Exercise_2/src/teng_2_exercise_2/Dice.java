@@ -18,6 +18,7 @@ public class Dice {
     
     public Dice() {
         // write some code
+        /*MY*/ this.numberOfEyes = 6;
     }
     
     /**
@@ -26,6 +27,7 @@ public class Dice {
      */
     public Dice( int numOfEyes ) {
         // write some code
+        /*MY*/ this.numberOfEyes = numOfEyes;
         this.rand = new Random();
         System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices 
                 + " created with " + numberOfEyes + " eyes.");
