@@ -20,6 +20,7 @@ public class Dice {
         // write some code
         /*MY*/ this.numberOfEyes = 6;
         /*MY*/ increaseNumberOfDices();
+        /*MY*/ this.rand = new Random();
         /*MY*/         System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices
                 + " created with " + numberOfEyes + " eyes.");
     }
@@ -79,7 +80,9 @@ public class Dice {
     
     public int throwDice() {
         System.out.println("DICE --> Throwing the dice.");
-        return 0; // write some code --> you need to find the correct return value
+        /*MY*/ return getRandomNumberInRange(1,12);
+        //return 0; // write some code --> you need to find the correct return value
+
     }
     
     public int[] throwDiceNTimes(int n) {
@@ -96,6 +99,7 @@ public class Dice {
     private int getRandomNumberInRange(int min, int max) {
         // write some code
         System.out.println("DICE --> Generating new random number.");
-        return rand.nextInt(0); // write some code --> you need to find the correct return value
+        //return rand.nextInt(0); // write some code --> you need to find the correct return value
+        return rand.nextInt(12);
     }
 }
