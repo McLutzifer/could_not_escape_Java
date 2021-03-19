@@ -9,9 +9,14 @@ public class Vehicle {
 
     // Construct an empty object
     public Vehicle() {
+        /*
         this.speed = 0.0f;
         this.color = new Color(255,255,255);
         this.brand = new String("Nan");
+
+        want to ommit this so following
+         */
+        this(0.0f, new Color(255,255,255), "Nan");
     }
 
     // TODO: Full constructor
