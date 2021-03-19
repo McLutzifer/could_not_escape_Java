@@ -11,6 +11,22 @@ public class Vehicle {
     public Vehicle() {
         this.speed = 0.0f;
         this.color = new Color(255,255,255);
-        this.brand =
+        this.brand = new String("Nan");
+    }
+
+    // TODO: Full constructor
+
+    // Get and Set methods
+
+    public void setSpeed(float speed) {
+        this.speed = speed;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 }
