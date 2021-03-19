@@ -48,7 +48,7 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return null;
+        return super.toString() + "Speed: " + getSpeed() + "; Color " + getColor().toString() + "; Brand " + getBrand();
     }
 
 }
