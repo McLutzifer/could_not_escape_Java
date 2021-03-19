@@ -29,6 +29,7 @@ public class Dice {
     public Dice( int numOfEyes ) {
         // write some code
         /*MY*/ this.numberOfEyes = numOfEyes;
+        /*MY increaseNumberOfDices(); */
         this.rand = new Random();
         System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices 
                 + " created with " + numberOfEyes + " eyes.");
