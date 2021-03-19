@@ -16,6 +16,12 @@ public class Vehicle {
 
     // TODO: Full constructor
 
+    public Vehicle(float speed, Color color, String brand) {
+        this.speed = speed;
+        this.color = color;
+        this.brand = brand;
+    }
+
     // Get and Set methods
 
     public void setSpeed(float speed) {
@@ -46,9 +52,14 @@ public class Vehicle {
         return this.brand;
     }
 
+    /*
     @Override
     public String toString() {
         return super.toString() + "Speed: " + getSpeed() + "; Color " + getColor().toString() + "; Brand " + getBrand();
     }
-
+*/
+    @Override
+    public String toString() {
+        return "Class: Vehicle; " +  "Speed: " + getSpeed() + "; Color " + getColor().toString() + "; Brand " + getBrand();
+    }
 }
