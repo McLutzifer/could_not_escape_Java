@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package teng_2_exercise_2;
 
 import java.util.Random;
@@ -17,10 +12,10 @@ public class Dice {
     Random rand;
     
     public Dice() {
-        /*MY*/ this.numberOfEyes = 6;
-        /*MY*/ increaseNumberOfDices();
-        /*MY*/ this.rand = new Random();
-        /*MY*/         System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices
+        this.numberOfEyes = 6;
+        increaseNumberOfDices();
+        this.rand = new Random();
+        System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices
                 + " created with " + numberOfEyes + " eyes.");
     }
     
@@ -29,9 +24,8 @@ public class Dice {
      * @param numOfEyes the number of sides (max eyes) the dice have.
      */
     public Dice( int numOfEyes ) {
-        /*MY*/ this.numberOfEyes = numOfEyes;
-        /*MY*/ // this.numberOfEyes = getNumberOfEyes();
-        /*MY*/ increaseNumberOfDices();
+        this.numberOfEyes = numOfEyes;
+        increaseNumberOfDices();
         this.rand = new Random();
         System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices 
                 + " created with " + numberOfEyes + " eyes.");
@@ -49,7 +43,7 @@ public class Dice {
      */
     private static void increaseNumberOfDices() {
         System.out.println("DICE --> Increasing number of dices.");
-        /*MY*/ numberOfDices++;
+        numberOfDices++;
     }
     
     /**
@@ -57,7 +51,7 @@ public class Dice {
      */
     private static void decreaseNumberOfDices() {
         System.out.println("DICE --> Decreasing number of dices.");
-        /*MY*/ numberOfDices--;
+        numberOfDices--;
     }
     
     /** 
@@ -66,7 +60,7 @@ public class Dice {
      */
     public static int getNumberOfDices() {
         System.out.println("DICE --> Returning number of dices.");
-        /*MY*/ return numberOfDices;
+        return numberOfDices;
     }
     
     public int getNumberOfEyes() {
@@ -76,12 +70,12 @@ public class Dice {
     
     public int throwDice() {
         System.out.println("DICE --> Throwing the dice.");
-        /*MY*/ return getRandomNumberInRange(1,numberOfEyes);
+        return getRandomNumberInRange(1,numberOfEyes);
     }
 
     public int[] throwDiceNTimes(int n) {
         System.out.println("DICE --> Throwing the dice " + n + " times");
-        /*MY */ int[] rolls = new int[n];
+        int[] rolls = new int[n];
         for(int i = 0; i < n; i++) {
             rolls[i] = throwDice();
         }
@@ -89,15 +83,15 @@ public class Dice {
     }
 
     public static int throwDices(Dice... dices){
-        /*MY */ int sum = 0;
-        /*MY*/ for(Dice dice: dices) {
+        int sum = 0;
+        for(Dice dice: dices) {
             sum += dice.throwDice();
         }
-        /*MY*/ return sum;
+        return sum;
     }
     
     private int getRandomNumberInRange(int min, int max) {
         System.out.println("DICE --> Generating new random number.");
-        /*MY*/ return rand.nextInt(max + 1 - min) + min;
+        return rand.nextInt(max + 1 - min) + min;
     }
 }
