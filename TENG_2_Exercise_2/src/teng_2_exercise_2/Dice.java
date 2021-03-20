@@ -79,7 +79,6 @@ public class Dice {
         /*MY*/ return getRandomNumberInRange(1,numberOfEyes);
     }
 
-    // ORIGINAL
     public int[] throwDiceNTimes(int n) {
         System.out.println("DICE --> Throwing the dice " + n + " times");
         /*MY */ int[] rolls = new int[n];
