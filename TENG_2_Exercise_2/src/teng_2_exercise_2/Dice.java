@@ -17,7 +17,6 @@ public class Dice {
     Random rand;
     
     public Dice() {
-        // write some code
         /*MY*/ this.numberOfEyes = 6;
         /*MY*/ increaseNumberOfDices();
         /*MY*/ this.rand = new Random();
@@ -30,14 +29,12 @@ public class Dice {
      * @param numOfEyes the number of sides (max eyes) the dice have.
      */
     public Dice( int numOfEyes ) {
-        // write some code
         /*MY*/ this.numberOfEyes = numOfEyes;
         /*MY*/ // this.numberOfEyes = getNumberOfEyes();
         /*MY*/ increaseNumberOfDices();
         this.rand = new Random();
         System.out.println("DICE --> Constructor: Dice nr: " + numberOfDices 
                 + " created with " + numberOfEyes + " eyes.");
-        /*MY increaseNumberOfDices(); */
     }
     
     @Override // DO NOT TOUCH THIS :-)
@@ -52,7 +49,6 @@ public class Dice {
      */
     private static void increaseNumberOfDices() {
         System.out.println("DICE --> Increasing number of dices.");
-        // write some code
         /*MY*/ numberOfDices++;
     }
     
@@ -61,7 +57,6 @@ public class Dice {
      */
     private static void decreaseNumberOfDices() {
         System.out.println("DICE --> Decreasing number of dices.");
-        // write some code
         /*MY*/ numberOfDices--;
     }
     
@@ -71,38 +66,30 @@ public class Dice {
      */
     public static int getNumberOfDices() {
         System.out.println("DICE --> Returning number of dices.");
-        //return 0; // write some code --> you need to find the correct return value
         /*MY*/ return numberOfDices;
     }
     
     public int getNumberOfEyes() {
         System.out.println("DICE --> Returning number of dice eyes.");
-        //return 0; // write some code --> you need to find the correct return value
         return numberOfEyes;
     }
     
     public int throwDice() {
         System.out.println("DICE --> Throwing the dice.");
         /*MY*/ return getRandomNumberInRange(1,numberOfEyes);
-        //return 0; // write some code --> you need to find the correct return value
-
     }
 
     // ORIGINAL
     public int[] throwDiceNTimes(int n) {
         System.out.println("DICE --> Throwing the dice " + n + " times");
-        // write some code
         /*MY */ int[] rolls = new int[n];
         for(int i = 0; i < n; i++) {
             rolls[i] = throwDice();
         }
         return rolls;
-        //return new int[1]; // write some code --> you need to find the correct return value
     }
 
     public static int throwDices(Dice... dices){
-        // write some code
-        //return 0; // write some code --> you need to find the correct return value
         /*MY */ int sum = 0;
         /*MY*/ for(Dice dice: dices) {
             sum += dice.throwDice();
@@ -111,9 +98,7 @@ public class Dice {
     }
     
     private int getRandomNumberInRange(int min, int max) {
-        // write some code
         System.out.println("DICE --> Generating new random number.");
-        //return rand.nextInt(0); // write some code --> you need to find the correct return value
         /*MY*/ return rand.nextInt(max + 1 - min) + min;
     }
 }
