@@ -97,34 +97,16 @@ public class Dice {
             rolls[i] = throwDice();
         }
         return rolls;
-
-
         //return new int[1]; // write some code --> you need to find the correct return value
     }
 
-
-    /*
-    /////////////// MY
-    public void throwDiceNTimes(int n) {
-        System.out.println("DICE --> Throwing the dice " + n + " times");
-        // write some code
-        //MY //
-        for (int i = 0; i < n; i ++) {
-            throwDice();
-        }
-    }
-     */
-
-
     public static int throwDices(Dice... dices){
-
         // write some code
         //return 0; // write some code --> you need to find the correct return value
         /*MY */ int sum = 0;
         /*MY*/ for(Dice dice: dices) {
             sum += dice.throwDice();
         }
-
         /*MY*/ return sum;
     }
     
