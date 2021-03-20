@@ -83,7 +83,7 @@ public class Dice {
     
     public int throwDice() {
         System.out.println("DICE --> Throwing the dice.");
-        /*MY*/ return getRandomNumberInRange(1,12);
+        /*MY*/ return getRandomNumberInRange(1,numberOfEyes);
         //return 0; // write some code --> you need to find the correct return value
 
     }
@@ -93,8 +93,9 @@ public class Dice {
         System.out.println("DICE --> Throwing the dice " + n + " times");
         // write some code
         /*MY */ int[] rolls = new int[n];
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i < n; i++) {
             rolls[i] = throwDice();
+        }
         return rolls;
 
 
