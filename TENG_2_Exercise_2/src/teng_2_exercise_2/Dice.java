@@ -61,7 +61,8 @@ public class Dice {
      */
     private static void decreaseNumberOfDices() {
         System.out.println("DICE --> Decreasing number of dices.");
-        // write some code  
+        // write some code
+        /*MY*/ numberOfDices--;
     }
     
     /** 
@@ -83,15 +84,32 @@ public class Dice {
         System.out.println("DICE --> Throwing the dice.");
         /*MY*/ return getRandomNumberInRange(1,12);
         //return 0; // write some code --> you need to find the correct return value
-
     }
-    
+
+    // ORIGINAL
     public int[] throwDiceNTimes(int n) {
         System.out.println("DICE --> Throwing the dice " + n + " times");
         // write some code
+        //MY //
+
+
         return new int[1]; // write some code --> you need to find the correct return value
     }
-    
+
+
+    /*
+    /////////////// MY
+    public void throwDiceNTimes(int n) {
+        System.out.println("DICE --> Throwing the dice " + n + " times");
+        // write some code
+        //MY //
+        for (int i = 0; i < n; i ++) {
+            throwDice();
+        }
+    }
+     */
+
+
     public static int throwDices(Dice... dices){
 
         // write some code
