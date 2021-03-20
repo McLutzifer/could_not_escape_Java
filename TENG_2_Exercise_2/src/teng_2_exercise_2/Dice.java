@@ -92,10 +92,13 @@ public class Dice {
     public int[] throwDiceNTimes(int n) {
         System.out.println("DICE --> Throwing the dice " + n + " times");
         // write some code
-        //MY //
+        /*MY */ int[] rolls = new int[n];
+        for(int i = 0; i < n; i++)
+            rolls[i] = throwDice();
+        return rolls;
 
 
-        return new int[1]; // write some code --> you need to find the correct return value
+        //return new int[1]; // write some code --> you need to find the correct return value
     }
 
 
