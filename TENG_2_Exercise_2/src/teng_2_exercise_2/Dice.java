@@ -77,7 +77,8 @@ public class Dice {
     
     public int getNumberOfEyes() {
         System.out.println("DICE --> Returning number of dice eyes.");
-        return 0; // write some code --> you need to find the correct return value
+        //return 0; // write some code --> you need to find the correct return value
+        return numberOfEyes;
     }
     
     public int throwDice() {
