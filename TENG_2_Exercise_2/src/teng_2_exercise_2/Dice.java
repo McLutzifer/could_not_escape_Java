@@ -85,6 +85,7 @@ public class Dice {
         System.out.println("DICE --> Throwing the dice.");
         /*MY*/ return getRandomNumberInRange(1,12);
         //return 0; // write some code --> you need to find the correct return value
+
     }
 
     // ORIGINAL
@@ -114,13 +115,19 @@ public class Dice {
     public static int throwDices(Dice... dices){
 
         // write some code
-        return 0; // write some code --> you need to find the correct return value
+        //return 0; // write some code --> you need to find the correct return value
+        /*MY */ int sum = 0;
+        /*MY*/ for(Dice dice: dices) {
+            sum += dice.throwDice();
+        }
+
+        /*MY*/ return sum;
     }
     
     private int getRandomNumberInRange(int min, int max) {
         // write some code
         System.out.println("DICE --> Generating new random number.");
         //return rand.nextInt(0); // write some code --> you need to find the correct return value
-        return rand.nextInt(12);
+        /*MY*/ return rand.nextInt(max + 1 - min) + min;
     }
 }
