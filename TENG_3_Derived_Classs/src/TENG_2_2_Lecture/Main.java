@@ -28,3 +28,14 @@ public String toString() {
 }
 
 }
+
+// Abgeleitete Klasse
+class DerivedClass_1 extends BaseClss_1 {
+    protected int z;
+
+    public DerivedClass_1() {
+        System.out.println("Leer Const DerivedClass_1");
+    }
+
+    public DerivedClass_1 (int x, int y, int z) {}
+}
