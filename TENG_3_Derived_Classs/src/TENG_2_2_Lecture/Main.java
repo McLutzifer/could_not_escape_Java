@@ -23,10 +23,9 @@ class BaseClss_1 {
     }
 
     @Override
-public String toString() {
-    return "x: " + x + "; y : " + y;
-}
-
+    public String toString() {
+        return "x: " + x + "; y : " + y;
+    }
 }
 
 // Abgeleitete Klasse
