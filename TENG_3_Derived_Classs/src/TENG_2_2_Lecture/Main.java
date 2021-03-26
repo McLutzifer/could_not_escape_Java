@@ -21,4 +21,10 @@ class BaseClss_1 {
         this.y = y;
         System.out.println("2 Param Const BaseClass_1");
     }
+
+    @Override
+public String toString() {
+    return "x: " + x + "; y : " + y;
+}
+
 }
