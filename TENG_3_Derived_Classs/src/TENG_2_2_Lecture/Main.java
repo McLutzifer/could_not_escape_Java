@@ -6,3 +6,9 @@ public class Main {
 	// write your code here
     }
 }
+
+
+
+class BaseClss_1 {
+    protected int x, y;
+}
