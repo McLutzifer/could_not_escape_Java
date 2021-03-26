@@ -34,8 +34,13 @@ class DerivedClass_1 extends BaseClss_1 {
     protected int z;
 
     public DerivedClass_1() {
+        super();
         System.out.println("Leer Const DerivedClass_1");
     }
 
-    public DerivedClass_1 (int x, int y, int z) {}
+    public DerivedClass_1 (int x, int y, int z) {
+        super(x, y);
+        this.z = z;
+        System.out.println("2 Param Const DerivedClass");
+    }
 }
