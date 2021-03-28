@@ -8,33 +8,8 @@ package teng_2_exercise_3;
 /**
  *
  * @author lbwagnerm
- *
- *
- * //vehicles.add( new Motorbike("Ducati") );
- * //vehicles.add( new Motorbike(true, true, 2, "Honda") );
- *
- *
- *
- *     * This is a vehicle of class teng_2_exercise_3.Motorbike,
- *     * having2 wheels and has a motor
- *     * needing a driving license
- *     * of the category A
- *     * its a(n) Ducati
- *     *
- *     * This is a vehicle of class teng_2_exercise_3.Motorbike,
- *     * having 2 wheels and has a motor
- *     * needing a driving license
- *     * of the category A
- *     * its a(n) Honda
- *
  */
 public class Motorbike extends Vehicle {
-
-    //vehicles.add( new Bike("KTM") );
-    //vehicles.add( new Bike(false, false, 2, "Bianchi") );
-    //vehicles.add( new Motorbike("Ducati") );
-    //vehicles.add( new Motorbike(true, true, 2, "Honda") );
-
 
     private String type;
     private boolean drivingLicense = true;
@@ -43,25 +18,16 @@ public class Motorbike extends Vehicle {
     private String typeOfDrivingLicense;
 
 
-
     public Motorbike(String type) {
         this.type = type;
-        this.typeOfDrivingLicense = "category B";
+        this.typeOfDrivingLicense = "category A";
     }
-
-
 
     public Motorbike(boolean motor, boolean drivingLicense, int numberOfWheels, String type) {
         super(motor, drivingLicense, numberOfWheels);
-        this.typeOfDrivingLicense = "category B";
+        this.typeOfDrivingLicense = "category A";
         this.type = type;
     }
-
-
-
-
-
-    // Insert your code here!
 
     @Override
     public String toString() {
@@ -72,5 +38,4 @@ public class Motorbike extends Vehicle {
                 + " of the " + typeOfDrivingLicense
                 + " and it's a(n) " + type;
     }
-    
 }

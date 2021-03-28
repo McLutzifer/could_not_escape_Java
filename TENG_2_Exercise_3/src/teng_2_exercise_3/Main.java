@@ -24,8 +24,8 @@ public class Main {
         vehicles.add( new Car(true, true, 4, "Audi") );
         vehicles.add( new Bike("KTM") );
         vehicles.add( new Bike(false, false, 2, "Bianchi") );
-        //vehicles.add( new Motorbike("Ducati") );
-        //vehicles.add( new Motorbike(true, true, 2, "Honda") );
+        vehicles.add( new Motorbike("Ducati") );
+        vehicles.add( new Motorbike(true, true, 2, "Honda") );
         
         vehicles.stream().forEach((Vehicle v) -> {
             System.out.println(v);
