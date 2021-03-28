@@ -21,6 +21,10 @@ public class Main {
         vehicles.add( new Vehicle() );
         vehicles.add( new Vehicle(true, true, 10) );
         vehicles.add( new Car("Toyota") );
+
+        vehicles.add( new Cars("Toyota") );
+
+
         vehicles.add( new Car(true, true, 4, "Audi") );
         vehicles.add( new Bike("KTM") );
         //vehicles.add( new Bike(false, false, 2, "Bianchi") );
