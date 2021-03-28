@@ -39,7 +39,6 @@ public class Bike extends Vehicle {
 
     public Bike(boolean motor, boolean drivingLicense, int numberOfWheels, String type) {
         super(motor, drivingLicense, numberOfWheels);
-        //this.typeOfDrivingLicense = "category B";
         this.type = type;
     }
 
