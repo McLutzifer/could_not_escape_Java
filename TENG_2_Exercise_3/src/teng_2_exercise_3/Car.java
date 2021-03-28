@@ -11,8 +11,6 @@ package teng_2_exercise_3;
  */
 public class Car extends Vehicle {
 
-
-
     private String type;
     private String typeOfDrivingLicense;
     // Insert your code here!
@@ -24,7 +22,9 @@ public class Car extends Vehicle {
         this.type = type;
     }
 
-
+public Car(String type) {
+        this.type = type;
+}
     
     // Insert your code here!
     
