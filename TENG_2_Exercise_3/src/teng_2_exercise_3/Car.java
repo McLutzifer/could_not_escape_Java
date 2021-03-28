@@ -12,19 +12,21 @@ package teng_2_exercise_3;
 public class Car extends Vehicle {
 
     private String type;
-    private String typeOfDrivingLicense;
+    private boolean drivingLicense;
     // Insert your code here!
     //public Car() { this (false, false, 42, "Test_Car");}
+    private String numberOfWheels;
+    private boolean motor;
     
     public Car(boolean motor, boolean drivingLicense, int numberOfWheels, String type) {
         super(motor, drivingLicense, numberOfWheels);
-        this.typeOfDrivingLicense = "category B";
+        this.TypeOfDrivingLicense = "category B";
         this.type = type;
     }
 
-public Car(String type) {
+    public Car(String type) {
         this.type = type;
-}
+    }
     
     // Insert your code here!
 
@@ -33,8 +35,5 @@ public Car(String type) {
         return "This is a vehicle of " + this.getClass() + ", having "
                 + numberOfWheels + " wheels" +
                 " and has " + ( motor ? "a motor" : "no motor") +
-                " needing a " + (drivingLicense ? "driving license" : "no driving license")
-                + " and it's a " + type;
+                " needing a " + (drivingLicense ? "driving license" : "no driving license");
     }
-    
-}
