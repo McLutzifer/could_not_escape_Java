@@ -13,10 +13,8 @@ public class Car extends Vehicle {
 
     private String type;
     private boolean drivingLicense;
-    // Insert your code here!
-    //public Car() { this (false, false, 42, "Test_Car");}
-    private String numberOfWheels;
-    private boolean motor;
+    private int numberOfWheels = 4;
+    private boolean motor = true;
     private String typeOfDrivingLicense;
 
     public Car(boolean motor, boolean drivingLicense, int numberOfWheels, String type) {
@@ -28,6 +26,7 @@ public class Car extends Vehicle {
 
     public Car(String type) {
         this.type = type;
+        this.typeOfDrivingLicense = "category B";
     }
 
     // Insert your code here!
@@ -38,7 +37,8 @@ public class Car extends Vehicle {
                 + numberOfWheels + " wheels" +
                 " and has " + (motor ? "a motor" : "no motor") +
                 " needing a " + (drivingLicense ? "driving license" : "no driving license")
-                + " and is a " + type;
+                + " needing a driving license of the " + typeOfDrivingLicense
+                + " and it's a(n) " + type;
     }
 
 }
