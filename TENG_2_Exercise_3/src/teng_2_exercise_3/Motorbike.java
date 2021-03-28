@@ -8,6 +8,25 @@ package teng_2_exercise_3;
 /**
  *
  * @author lbwagnerm
+ *
+ *
+ * //vehicles.add( new Motorbike("Ducati") );
+ * //vehicles.add( new Motorbike(true, true, 2, "Honda") );
+ *
+ *
+ *
+ *     * This is a vehicle of class teng_2_exercise_3.Motorbike,
+ *     * having2 wheels and has a motor
+ *     * needing a driving license
+ *     * of the category A
+ *     * its a(n) Ducati
+ *     *
+ *     * This is a vehicle of class teng_2_exercise_3.Motorbike,
+ *     * having 2 wheels and has a motor
+ *     * needing a driving license
+ *     * of the category A
+ *     * its a(n) Honda
+ *
  */
 public class Motorbike extends Vehicle {
 
