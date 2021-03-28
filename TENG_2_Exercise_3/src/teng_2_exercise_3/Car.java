@@ -27,5 +27,14 @@ public Car(String type) {
 }
     
     // Insert your code here!
+
+    @Override
+    public String toString() {
+        return "This is a vehicle of " + this.getClass() + ", having "
+                + numberOfWheels + " wheels" +
+                " and has " + ( motor ? "a motor" : "no motor") +
+                " needing a " + (drivingLicense ? "driving license" : "no driving license")
+                + " and it's a " + type;
+    }
     
 }
