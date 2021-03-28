@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package teng_2_exercise_3;
+package teng_2_e_3;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,20 +8,20 @@ import java.util.List;
  * @author lbwagnerm
  */
 public class Main {
-    
+
     public static void main (String []args) {
-        
+
         List<Vehicle> vehicles = new ArrayList<Vehicle>(0);
-        
+
         vehicles.add( new Vehicle() );
         vehicles.add( new Vehicle(true, true, 10) );
         vehicles.add( new Car("Toyota") );
         vehicles.add( new Car(true, true, 4, "Audi") );
         vehicles.add( new Bike("KTM") );
-        //vehicles.add( new Bike(false, false, 2, "Bianchi") );
-        //vehicles.add( new Motorbike("Ducati") );
-        //vehicles.add( new Motorbike(true, true, 2, "Honda") );
-        
+        vehicles.add( new Bike(false, false, 2, "Bianchi") );
+        vehicles.add( new Motorbike("Ducati") );
+        vehicles.add( new Motorbike(true, true, 2, "Honda") );
+
         vehicles.stream().forEach((Vehicle v) -> {
             System.out.println(v);
         });
