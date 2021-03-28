@@ -12,7 +12,7 @@ package teng_2_exercise_3;
 public class Car extends Vehicle {
 
     private String type;
-    private boolean drivingLicense;
+    private boolean drivingLicense = true;
     private int numberOfWheels = 4;
     private boolean motor = true;
     private String typeOfDrivingLicense;
@@ -37,7 +37,7 @@ public class Car extends Vehicle {
                 + numberOfWheels + " wheels" +
                 " and has " + (motor ? "a motor" : "no motor") +
                 " needing a " + (drivingLicense ? "driving license" : "no driving license")
-                + " needing a driving license of the " + typeOfDrivingLicense
+                + " of the " + typeOfDrivingLicense
                 + " and it's a(n) " + type;
     }
 
