@@ -17,23 +17,28 @@ public class Car extends Vehicle {
     //public Car() { this (false, false, 42, "Test_Car");}
     private String numberOfWheels;
     private boolean motor;
-    
+    private String typeOfDrivingLicense;
+
     public Car(boolean motor, boolean drivingLicense, int numberOfWheels, String type) {
         super(motor, drivingLicense, numberOfWheels);
-        this.TypeOfDrivingLicense = "category B";
+        this.typeOfDrivingLicense = "category B";
         this.type = type;
     }
+
 
     public Car(String type) {
         this.type = type;
     }
-    
+
     // Insert your code here!
 
     @Override
     public String toString() {
         return "This is a vehicle of " + this.getClass() + ", having "
                 + numberOfWheels + " wheels" +
-                " and has " + ( motor ? "a motor" : "no motor") +
-                " needing a " + (drivingLicense ? "driving license" : "no driving license");
+                " and has " + (motor ? "a motor" : "no motor") +
+                " needing a " + (drivingLicense ? "driving license" : "no driving license")
+                + " and is a " + type;
     }
+
+}
