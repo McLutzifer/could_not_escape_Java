@@ -6,6 +6,7 @@ public class GUITest {
     public static void main(String[] args) {
         var eingabe = JOptionPane.showInputDialog("Bitte Zahl eingeben");
         var alter = Integer.parseInt(eingabe);
-        JOptionPane.showMessageDialog(null, "Das ");
+        var doppel = alter * 2;
+        JOptionPane.showMessageDialog(null, "Das Doppelte ist " + doppel + " !");
     }
 }
