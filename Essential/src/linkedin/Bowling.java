@@ -1,6 +1,9 @@
 package linkedin;
 
 
+import java.util.HashMap;
+import java.util.Scanner;
+
 public class Bowling {
     HashMap<String, Integer> players;
     Bowling() {
