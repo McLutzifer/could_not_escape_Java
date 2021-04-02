@@ -40,6 +40,8 @@ public class GuessingGame extends JFrame {
 
         JLabel lblDrPaynesHilo = new JLabel("Dr. Payne's Hi-Lo Guessing Game");
         lblDrPaynesHilo.setFont(new Font("Tahoma", Font.BOLD, 15));
-
+        lblDrPaynesHilo.setHorizontalAlignment(SwingConstants.CENTER);
+        lblDrPaynesHilo.setBounds(10, 37, 414, 24);
+        getContentPane().add(lblDrPaynesHilo);
     } // end GuessingGame()
 }
