@@ -5,5 +5,6 @@ public class GUI {
         JFrame window = new JFrame("Bryson's Window");
         JPanel panel = new JPanel();
         JButton button = new JButton("Click me!");
+        panel.add(button);
     }
 }
