@@ -16,8 +16,8 @@ public class Bowling {
 
     public void getWinner() {
         // System.out.println(players.get("John")); // 100
-        //this.name = name;
-        for (Steing players.name : players) {
+        // this.name = name;
+        for (String players.name : players) {
             System.out.println(players.get(name));
         }
     }
