@@ -7,5 +7,6 @@ public class GUI {
         JButton button = new JButton("Click me!");
         panel.add(button);
         window.add(panel);
+        window.setSize(300,100);
     }
 }
