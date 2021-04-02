@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class GuessingGame extends JFrame {
     private JTextField txtGuess;
@@ -49,6 +51,12 @@ public class GuessingGame extends JFrame {
         lblGuessANumber.setBounds(10, 98, 272, 14);
         getContentPane().add(lblGuessANumber);
 
+        txtGuess = new JTextField();
+        txtGuess.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                checkGuess();
+            }
+        });
 
     } // end GuessingGame()
 }
