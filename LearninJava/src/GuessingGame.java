@@ -29,6 +29,15 @@ public class GuessingGame extends JFrame {
     } // end checkGuess
 
     public void newGame() {
-
+        theNumber = (int)(Math.random() * 100 + 1);
     } // end newGame
+
+    public GuessingGame() {
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setTitle("Dr. Payne's Hi-Lo Guessing Game");
+        getContentPane().setLayout(null);
+
+        JLabel lblDrPaynesHilo = new JLabel("Dr. Payne's Hi-Lo Guessing Game");
+
+    } // end GuessingGame()
 }
