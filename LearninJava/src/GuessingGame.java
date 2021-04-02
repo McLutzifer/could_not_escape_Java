@@ -7,5 +7,9 @@ public class GuessingGame extends JFrame {
 
     public void checkGuess(){
         String guessText = txtGuess.getText();
+        String message = "";
+        try {
+            int guess = Integer.parseInt(guessText);
+        }
     } // end checkGuess
 }
