@@ -10,6 +10,10 @@ public class GuessingGame extends JFrame {
         String message = "";
         try {
             int guess = Integer.parseInt(guessText);
+            if (guess < theNumber)
+                message = guess + " is too low. Try again.";
+            else if (guess > theNumber)
+                message = guess + " is too high. Try again"
         }
     } // end checkGuess
 }
