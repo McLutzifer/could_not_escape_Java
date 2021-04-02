@@ -6,5 +6,6 @@ public class GUI {
         JPanel panel = new JPanel();
         JButton button = new JButton("Click me!");
         panel.add(button);
+        window.add(panel);
     }
 }
