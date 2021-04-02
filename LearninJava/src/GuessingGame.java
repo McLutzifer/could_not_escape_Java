@@ -43,5 +43,12 @@ public class GuessingGame extends JFrame {
         lblDrPaynesHilo.setHorizontalAlignment(SwingConstants.CENTER);
         lblDrPaynesHilo.setBounds(10, 37, 414, 24);
         getContentPane().add(lblDrPaynesHilo);
+
+        JLabel lblGuessANumber = new JLabel("Guess a number between 1 and 100");
+        lblGuessANumber.setHorizontalAlignment(SwingConstants.RIGHT);
+        lblGuessANumber.setBounds(10, 98, 272, 14);
+        getContentPane().add(lblGuessANumber);
+
+
     } // end GuessingGame()
 }
