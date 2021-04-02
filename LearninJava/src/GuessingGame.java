@@ -57,6 +57,30 @@ public class GuessingGame extends JFrame {
                 checkGuess();
             }
         });
+        txtGuess.setBounds(292, 95, 43, 20);
+        getContentPane().add(txtGuess);
+        txtGuess.setColumns(10);
 
+
+        JButton btnGuess = new JButton("Guess!");
+        btnGuess.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                checkGuess();
+            }
+        });
+        btnGuess.setBounds(172, 149, 89, 23);
+        getContentPane().add(btnGuess);
+
+        lblOutput = new JLabel("Enter a number above, and click Guess!");
+        lblOutput.setHorizontalAlignment(SwingConstants.CENTER);
+        lblOutput.setBounds(10, 209, 414, 14);
+        getContentPane().add(lblOutput);
     } // end GuessingGame()
-}
+
+    public static void main(String[] args) {
+        GuessingGame theGame = new GuessingGame();
+        theGame.newGame();
+        theGame.setSize(new Dimension(450, 300));
+        theGame.setVisible(true);
+    } // end main
+} // end public class GuessingGame
