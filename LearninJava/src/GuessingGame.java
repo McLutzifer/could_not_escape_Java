@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class GuessingGame extends JFrame {
     private JTextField txtGuess;
@@ -38,6 +39,7 @@ public class GuessingGame extends JFrame {
         getContentPane().setLayout(null);
 
         JLabel lblDrPaynesHilo = new JLabel("Dr. Payne's Hi-Lo Guessing Game");
+        lblDrPaynesHilo.setFont(new Font("Tahoma", Font.BOLD, 15));
 
     } // end GuessingGame()
 }
