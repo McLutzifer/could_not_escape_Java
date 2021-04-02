@@ -8,5 +8,8 @@ public class GUI {
         panel.add(button);
         window.add(panel);
         window.setSize(300,100);
+        button.addActionListener(e ->
+                System.out.println("Ouch! You clicked me!"));
+        window.setVisible(true);
     }
 }
