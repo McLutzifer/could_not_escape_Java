@@ -24,7 +24,7 @@ public class Main {
         var output = String.format("Your %s order will cost %s",
                 item.getType(),
                 formatter.format(totalPrice));
-
+        System.out.println(output);
 
     } // end main
 } // end class Main
