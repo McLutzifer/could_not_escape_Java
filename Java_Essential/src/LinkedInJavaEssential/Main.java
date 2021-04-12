@@ -21,6 +21,10 @@ public class Main {
 
         var totalPrice = item.getPrice() * item.getQuantity();
         var formatter = NumberFormat.getCurrencyInstance();
+        var output = String.format("Your %s order will cost %s",
+                item.getType(),
+                formatter.format(totalPrice));
+
 
     } // end main
 } // end class Main
