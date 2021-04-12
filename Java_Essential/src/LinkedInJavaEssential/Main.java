@@ -18,6 +18,6 @@ public class Main {
         item.setPrice(19.99);
         item.setQuantity(3);
 
-
+        var totalPrice = item.getPrice() * item.getQuantity();
     } // end main
 } // end class Main
