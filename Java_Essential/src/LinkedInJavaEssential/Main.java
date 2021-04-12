@@ -2,6 +2,7 @@ package LinkedInJavaEssential;
 
 import LinkedInJavaEssential.model.ClothingItem;
 
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -19,5 +20,7 @@ public class Main {
         item.setQuantity(3);
 
         var totalPrice = item.getPrice() * item.getQuantity();
+        var formatter = NumberFormat.getCurrencyInstance();
+
     } // end main
 } // end class Main
