@@ -8,14 +8,11 @@ public class Duck {
     private String favoriteFood;
 
     // methods: functionality
-    void waddle() {}
-
-    void quack() {}
-
-
-    public Duck(String nom, String favoriteFood) {
-        this.name = nom;
-        this.favoriteFood = favoriteFood;
+    void waddle() {
+        System.out.println("waddle waddle");
     }
 
+    void quack() {
+        System.out.println("quack quack");
+    }
 }
