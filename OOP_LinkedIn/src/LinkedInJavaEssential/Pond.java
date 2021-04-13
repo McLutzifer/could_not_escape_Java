@@ -1,4 +1,7 @@
 package LinkedInJavaEssential;
 
 public class Pond {
+    public static void main(String[] args) {
+        System.out.println("TEST");
+    }
 }
