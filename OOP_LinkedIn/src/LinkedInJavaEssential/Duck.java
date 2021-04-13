@@ -8,6 +8,7 @@ public class Duck {
     private String favoriteFood;
 
     public Duck(String name, int lifeExpectancy, String favoriteFood) {
+        // super(); ???
         this.name = name;
         this.lifeExpectancy = lifeExpectancy;
         this.favoriteFood = favoriteFood;
