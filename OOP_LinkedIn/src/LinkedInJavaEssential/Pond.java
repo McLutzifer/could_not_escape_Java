@@ -5,5 +5,8 @@ public class Pond {
         System.out.println("TEST for POND");
 
         Duck mobyDuck = new Duck("Moby", 90/3, "celery");
+        Duck wolfgangDuck = new Duck("Wolfgang", 60/3, "cheesburgers");
+
+        mobyDuck.waddle();
     }
 }
