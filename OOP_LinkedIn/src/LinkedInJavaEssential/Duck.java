@@ -3,9 +3,9 @@ package LinkedInJavaEssential;
 public class Duck {
 
     // member variables: data
-    String name;
-    int lifeExpectancy;
-    String favoriteFood;
+    private String name;
+    private int lifeExpectancy;
+    private String favoriteFood;
 
     // methods: functionality
     void waddle() {}
