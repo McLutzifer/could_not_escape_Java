@@ -7,6 +7,8 @@ public class Duck {
     int lifeExpectancy;
     String favoriteFood;
 
-
     // methods: functionality
+    void waddle() {}
+
+    void quack() {}
 }
