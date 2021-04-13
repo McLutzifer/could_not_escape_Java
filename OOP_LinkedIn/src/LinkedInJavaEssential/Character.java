@@ -12,9 +12,5 @@ public class Character {
         this.species = spec;
     }
 
-    public static void main(String[] args) {
-        Character bilbo = new Character("Bilbo", "Hobbit");
 
-        System.out.println(bilbo.name);
-    }
 }
