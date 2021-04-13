@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="LearninJava/src/|TENG_2_Exercise_2/src/|TENG_2_Exercise_3/src/|Essential/src/|Habelitz/src/|Java_Essential/src/|TENG_2_2/src/|TENG_3_Derived_Classs/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="Essential/src"/>
+	<classpathentry kind="src" path="Habelitz/src"/>
+	<classpathentry kind="src" path="Java_Essential/src"/>
+	<classpathentry kind="src" path="LearninJava/src"/>
+	<classpathentry kind="src" path="TENG_2_2/src"/>
+	<classpathentry kind="src" path="TENG_2_Exercise_2/src"/>
+	<classpathentry kind="src" path="TENG_2_Exercise_3/src"/>
+	<classpathentry kind="src" path="TENG_3_Derived_Classs/src"/>
+	<classpathentry kind="output" path="Essential/out/production/Essential"/>
+</classpath>
