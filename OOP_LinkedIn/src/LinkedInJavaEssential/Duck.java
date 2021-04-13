@@ -13,8 +13,8 @@ public class Duck {
     void quack() {}
 
 
-    public Duck(String name, String favoriteFood) {
-        this.name = name;
+    public Duck(String nom, String favoriteFood) {
+        this.name = nom;
         this.favoriteFood = favoriteFood;
     }
 
