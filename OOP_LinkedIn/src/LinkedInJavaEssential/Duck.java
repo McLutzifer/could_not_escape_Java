@@ -11,4 +11,11 @@ public class Duck {
     void waddle() {}
 
     void quack() {}
+
+
+    public Duck(String name, String favoriteFood) {
+        this.name = name;
+        this.favoriteFood = favoriteFood;
+    }
+
 }
