@@ -7,6 +7,12 @@ public class Duck {
     private int lifeExpectancy;
     private String favoriteFood;
 
+    public Duck(String name, int lifeExpectancy, String favoriteFood) {
+        this.name = name;
+        this.lifeExpectancy = lifeExpectancy;
+        this.favoriteFood = favoriteFood;
+    }
+
     // methods: functionality
     void waddle() {
         System.out.println("waddle waddle");
