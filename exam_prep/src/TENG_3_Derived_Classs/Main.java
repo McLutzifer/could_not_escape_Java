@@ -1,5 +1,7 @@
 package TENG_3_Derived_Classs;
 
+//import static TENG_3_Derived_Classs.Overloading.plus;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,5 +16,11 @@ public class Main {
         for (String auto : Arrays.cars) {
             System.out.println(auto);
         }
-    }
-}
+
+        System.out.println(Overloading.plus(4, 3));
+        System.out.println(Overloading.plus(3.6, 7.9));
+        System.out.println(Overloading.plus("Hello", "World"));
+
+
+    } // end main
+} // end class Main
