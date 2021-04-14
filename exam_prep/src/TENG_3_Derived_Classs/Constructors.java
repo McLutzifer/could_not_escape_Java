@@ -9,6 +9,12 @@ public class Constructors {
         x = 5;
     }
 
+    public Constructors(int y, int z) {
+        this.y = y;
+        this.z = z;
+        x = 42;
+    }
+
     public Constructors(int x, int y, int z) {
         this.x = x;
         this.y = y;

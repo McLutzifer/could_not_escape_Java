@@ -26,6 +26,11 @@ public class Main {
         //String x = NotStatic.fruit[0];
         System.out.println(x);
 
+        Constructors versuch = new Constructors();
+        System.out.println(versuch.x);
+        Constructors versuch2 = new Constructors(7,8,9);
+        System.out.println(versuch2.x);
+
 
     } // end main
 } // end class Main
