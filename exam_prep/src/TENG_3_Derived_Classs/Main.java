@@ -23,6 +23,7 @@ public class Main {
 
         NotStatic testObject = new NotStatic();
         String x = testObject.fruit[0];
+        //String x = NotStatic.fruit[0];
         System.out.println(x);
 
 
