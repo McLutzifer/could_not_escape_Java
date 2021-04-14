@@ -9,4 +9,8 @@ public class Overloading {
     static double plus (double x, double y) {
         return x + y;
     }
+
+    static String plus (String x, String y) {
+        return x + y;
+    }
 }
