@@ -6,5 +6,7 @@ public class Main {
 	// write your code here
         String[] car = {"a", "b", "c"};
         System.out.println(car[0]);
+
+        System.out.println(Arrays.cars[0]);
     }
 }
