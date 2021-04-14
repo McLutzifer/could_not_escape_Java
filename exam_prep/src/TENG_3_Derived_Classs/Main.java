@@ -5,6 +5,6 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         String[] car = {"a", "b", "c"};
-        System.out.println(Arrays.car[0]);
+        System.out.println(car[0]);
     }
 }
