@@ -21,6 +21,10 @@ public class Main {
         System.out.println(Overloading.plus(3.6, 7.9));
         System.out.println(Overloading.plus("Hello", "World"));
 
+        NotStatic testObject = new NotStatic();
+        String x = testObject.fruit[0];
+        System.out.println(x);
+
 
     } // end main
 } // end class Main
