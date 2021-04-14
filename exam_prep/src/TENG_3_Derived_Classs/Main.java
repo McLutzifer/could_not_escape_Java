@@ -8,5 +8,11 @@ public class Main {
         System.out.println(car[0]);
 
         System.out.println(Arrays.cars[0]);
+
+        System.out.println(Arrays.cars.length);
+
+        for (String auto : Arrays.cars) {
+            System.out.println(auto);
+        }
     }
 }
