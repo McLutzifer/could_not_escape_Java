@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println(Arrays.cars[0]);
+        String[] car = {"a", "b", "c"};
+        System.out.println(Arrays.car[0]);
     }
 }
