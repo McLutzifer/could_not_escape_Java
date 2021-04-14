@@ -30,6 +30,8 @@ public class Main {
         System.out.println(versuch.x);
         Constructors versuch2 = new Constructors(7,8,9);
         System.out.println(versuch2.x);
+        Constructors versuch3 = new Constructors(8, 9);
+        System.out.println(versuch3.x);
 
 
     } // end main
