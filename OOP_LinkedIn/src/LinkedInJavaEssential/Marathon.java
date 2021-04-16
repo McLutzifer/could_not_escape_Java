@@ -6,7 +6,8 @@ public class Marathon {
         Athlete mike = new Athlete("Mike", 10);
         Athlete betsy = new Athlete("Betsy", 12);
 
-        mike.setMarathonLocation("boston");
+        mike.setMarathonLocation("Boston");
+        betsy.setMarathonLocation("London");
 
         System.out.println(mike);
         System.out.println(betsy);
