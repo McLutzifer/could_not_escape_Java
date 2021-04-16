@@ -19,7 +19,7 @@ public class DiseaseSorter {
 
         /*print all incurable deseases */
         for (Disease disease : diseases) {
-            System.out.println(disease.curable);
+            System.out.println(disease.isCurable());
         }
     }
 }
