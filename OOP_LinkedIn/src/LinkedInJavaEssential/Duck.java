@@ -16,10 +16,16 @@ public class Duck {
 
     // methods: functionality
     void waddle() {
-        System.out.println("waddle waddle");
+        System.out.println(this.name + " is waddling");
     }
 
     void quack() {
         System.out.println("quack quack");
+    }
+
+    @Override
+    public String toString() {
+        return "My name is " + name + ". I like to eat "
+                + favoriteFood + ". LifeExpecancy: " + lifeExpectancy;
     }
 }
