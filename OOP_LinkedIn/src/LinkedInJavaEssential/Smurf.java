@@ -17,5 +17,7 @@ public class Smurf {
         System.out.println("My name is " + name + " Smurf.");
     }
 
-
+    public void eat() {
+        System.out.println(name + " Smurf is eating Smurfberries.");
+    }
 }
