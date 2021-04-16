@@ -8,5 +8,7 @@ public class Pond {
         Duck wolfgangDuck = new Duck("Wolfgang", 60/3, "cheesburgers");
 
         mobyDuck.waddle();
+
+        System.out.println(wolfgangDuck);
     }
 }
