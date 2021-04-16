@@ -3,7 +3,7 @@ package LinkedInJavaEssential;
 public class Disease {
 
     private String name;
-    private boolean curable;
+    public boolean curable;
 
     Disease(String title, boolean isCurable) {
         this.curable = isCurable;
