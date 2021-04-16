@@ -17,7 +17,7 @@ public class DiseaseSorter {
         diseases.add(malaria);
         diseases.add(cancer);
 
-        /*print all incurable deseases */
+        /*print all incurable diseases */
         for (Disease disease : diseases) {
             System.out.println(disease.isCurable());
         }
