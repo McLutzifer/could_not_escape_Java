@@ -9,6 +9,11 @@ public class Pond {
 
         mobyDuck.waddle();
 
+        wolfgangDuck.waddle();
+        wolfgangDuck.waddle();
+        wolfgangDuck.waddle();
+        wolfgangDuck.waddle();
+
         System.out.println(wolfgangDuck);
     }
 }
