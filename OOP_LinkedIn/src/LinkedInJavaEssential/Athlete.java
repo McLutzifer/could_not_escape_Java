@@ -15,6 +15,10 @@ public class Athlete {
         this.bibNumber = runnersInRace;
     }
 
+    public static int getRunnersInRace() {
+        return runnersInRace;
+    }
+
     public void setMarathonLocation(String marathonLocation) {
         this.marathonLocation = marathonLocation;
     }
