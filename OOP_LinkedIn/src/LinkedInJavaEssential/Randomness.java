@@ -10,6 +10,6 @@ public class Randomness {
         System.out.println(random.nextBoolean());
         System.out.println(random.nextDouble());
 
-        System.out.println(random.nextLetter);
+        System.out.println(random.nextLetter());
     }
 }
